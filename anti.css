@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;400;500;600;700;800&display=swap');
+
+body {
+    background: rgb(4, 4, 49);
+    color: #fff;
+    height: 100vh;
+    padding: 16px;
+    font-family: 'Nunito', sans-serif;
+    text-align: center;
+}
+
+h1 {
+    font-size: 5vw;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.result {
+    margin: 32px 0;
+    padding: 10px;
+    background-color: rgb(4, 4, 49);
+    border-radius: 10px;
+    display: none;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.result.view {
+    display: block;
+}
+
+
+.text-wrap {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+    margin-right: 15px;
+
+}
+
+.text label {
+    margin-bottom: 8px;
+    font-size: 20px;
+    font-family: 500;
+}
+
+.text textarea {
+    height: 30vh;
+    background-color: rgba(34, 30, 30, 0.3);
+    color: #fff;
+    border-radius: 10px;
+    border: 1px solid  #fff;
+    font-size: 20px;
+    padding: 16px;
+    text-align: center;
+}
+
+.btn-wrap {
+    text-align: center;
+}
+
+.button {
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: rgb(31, 158, 158);
+    padding: 8px 30px;
+    display: inline-block;
+    margin: 25px auto;
+    font-weight: 700;
+}
