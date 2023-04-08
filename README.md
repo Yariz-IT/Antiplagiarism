@@ -1,4 +1,4 @@
 # Antiplagiarism
   <div align="center">
-  В данном приложении была отработанна практика с DOM + API
+  https://github.com/Yariz-IT/Antiplagiarism/blob/main/Antiplagiarism.gif
   </div>
