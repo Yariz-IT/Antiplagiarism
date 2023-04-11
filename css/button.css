@@ -1,0 +1,15 @@
+
+.button-wrap {
+    text-align: center;
+}
+
+.button {
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: rgb(31, 158, 158);
+    padding: 8px 30px;
+    display: inline-block;
+    margin: 25px auto;
+    font-weight: 700;
+}
